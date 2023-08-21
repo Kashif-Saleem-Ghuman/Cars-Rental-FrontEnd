@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const customFetch = axios.create({
-	baseURL: 'https://cars-api.up.railway.app',
+	baseURL: 'https://car-rental-api-30ex.onrender.com',
 });
 
 export default customFetch;

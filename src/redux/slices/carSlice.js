@@ -2,7 +2,8 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { getUserFromLocalStorage } from "../../utils/LocalStorage";
 
-export const BASE_URL = "https://cars-api.up.railway.app/api/v1";
+export const BASE_URL = "https://car-rental-api-30ex.onrender.com/api/v1";
+
 
 export const fetchCars = createAsyncThunk(
 	"cars/fetchData",
@@ -57,7 +58,9 @@ export const createNewCar = createAsyncThunk(
 			});
 			return response.data;
 		} catch (err) {
+			console.log(await err.response.data);
 			return rejectWithValue(await err.response.data);
+
 		}
 	}
 );
@@ -78,7 +81,7 @@ export const createReservation = createAsyncThunk(
 			);
 			return response.data;
 		} catch (err) {
-			console.error(err);
+			console.error(await err.response.data);
 			return rejectWithValue(await err.response.data);
 		}
 	}
