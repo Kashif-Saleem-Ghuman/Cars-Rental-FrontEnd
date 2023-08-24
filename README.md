@@ -38,9 +38,9 @@
 
 > Car Rentals is a React app that serves as a front end to the Car Rentals project.
 
-## Live Demo
+## Live Demo 
 
-To see this project's live demo, please click [here](https://cars-rental-front-end.vercel.app/).
+Deployment is currently under process
 
 ## Desktop View
 
@@ -58,11 +58,11 @@ To view the issue with the Kanban Board screenshots please click [here](https://
 
 ## Backend
 
-Api documentation can be found [here](https://documenter.getpostman.com/view/26901652/2s93eZyBwq)
+API documentation can be found [here](https://documenter.getpostman.com/view/26901652/2s93eZyBwq)
 
 Api live demo can be found [here](https://cars-api.up.railway.app/)
 
-API repository can be found [here](https://github.com/demix007/car-rentals-backend)
+API repository can be found [here](https://github.com/Kashif-Saleem-Ghuman/car-rentals-backend)
 
 ## Contributors
 
@@ -82,9 +82,9 @@ This app is built with React and Redux.
 > - Login page where the user logs in to the website.
 > - Home page where the user can see a list of cars and click on any car to display the details of that car.
 > - The details page is where the user can click on the "Reserve" button to reserve the car.
-> - User can see a list of their reservations.
-> - User can add a new car.
-> - User can click on the delete button from the naviagtion panel and see a list of all cars with the car name and a "delete" button and then delete a particular car.
+> - Users can see a list of their reservations.
+> - The user can add a new car.
+> - The user can click on the delete button from the navigation panel and see a list of all cars with the car name and a "delete" button and then delete a particular car.
 > - The deleted cars are removed from the home page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,15 +101,17 @@ In order to run this project you need:
 
 - Mac or PC
 - Install node.js
-- Use npm as package manager.
+- Use npm as a package manager.
 - Understanding of React and Redux
 
 ### Setup
 
+- Setup and start the backend server by following the instructions in the [API repository](https://github.com/Kashif-Saleem-Ghuman/car-rentals-backend)
+
 - Clone this repository to your desired folder:
 
 ```sh
- git clone https://github.com/houdamzari/Cars-Rental-FrontEnd.git
+ https://github.com/Kashif-Saleem-Ghuman/Cars-Rental-FrontEnd.git
 ```
 
 - Navigate into the cloned folder
@@ -196,7 +198,7 @@ If you like this project, please leave a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- We would like to thank Microverse for providing the reading materials that aided us to during the project development.
+- We would like to thank Microverse for providing the reading materials that aided us during the project development.
 - We would like to give Credit to 🙏 Murat Korkmaz the author of the original Vespa- Responsive Redesign, as required by the Creative Commons License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
