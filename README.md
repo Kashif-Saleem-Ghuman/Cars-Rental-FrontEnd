@@ -59,7 +59,7 @@ To view the issue with the Kanban Board screenshots please click [here](https://
 
 API documentation can be found [here](https://documenter.getpostman.com/view/26901652/2s93eZyBwq)
 
-Api live demo can be found [here](https://cars-api.up.railway.app/)
+Api live demo is under construction
 
 API repository can be found [here](https://github.com/Kashif-Saleem-Ghuman/car-rentals-backend)
 
