@@ -11,7 +11,6 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Cars Rental Frontend ](#-cars-rental-frontend-)
-	- [Live Demo](#live-demo)
 	- [Desktop View](#desktop-view)
 	- [Mobile View](#mobile-view)
 	- [Kanban Board](#kanban-board)
