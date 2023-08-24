@@ -35,7 +35,7 @@
 
 # 📖 Cars Rental Frontend <a name="about-project"></a>
 
-> Car Rentals is a React app that serves as a front end to the Car Rentals project.
+> A web app for seamless car rental experiences. Login to access a curated list of cars, explore details, make reservations, manage your bookings, add new cars, and easily remove them from the inventory.
 
 ## Live Demo 
 
