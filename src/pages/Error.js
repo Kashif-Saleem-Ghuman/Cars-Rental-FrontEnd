@@ -4,20 +4,23 @@ import img from '../assets/not-found.png';
 import styled from 'styled-components';
 
 const Error = () => {
-	return (
-		<Wrapper className="full-page">
-			<div>
-				<img src={img} alt="not found" />
-				<h3>:! Page Not Found</h3>
-				<p>
+  return (
+    <Wrapper className="full-page">
+      <div>
+        <img src={img} alt="not found" />
+        <h3>:! Page Not Found</h3>
+        {/* <p>
 					We apologize, but it seems the page you are looking for cannot be
 					found. Please click on the Back Home button to return to our homepage.
 					Thank you for your understanding.
-				</p>
-				<Link to="/">back home</Link>
-			</div>
-		</Wrapper>
-	);
+				</p> */}
+        <p>We apologise for the inconvinience, the server is currenlty not responding. Please follow the instructions in the Readme.md file to run the project locally</p>
+        {/* <Link to="/">back home</Link> */}
+        <a href="https://github.com/Kashif-Saleem-Ghuman/Cars-Rental-FrontEnd/blob/develop/README.md">Readame</a>
+
+      </div>
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.main`

@@ -25,14 +25,15 @@ const App = () => {
 		<div className="App">
 			<BrowserRouter>
 				<Routes>
-					<Route
+					<Route path="/*" element={<Error />} />
+					{/* <Route
 						path="/"
 						element={
 							<ProtectedRoute>
 								<Homepage />
 							</ProtectedRoute>
 						}
-					/>
+					/> */}
 					<Route
 						path="/bookride"
 						element={
