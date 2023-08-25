@@ -2,7 +2,9 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { getUserFromLocalStorage } from "../../utils/LocalStorage";
 
-export const BASE_URL = "https://car-rental-api-30ex.onrender.com/api/v1";
+export const BASE_URL = "http://127.0.0.1:3000/api/v1";
+// export const BASE_URL = "https://carrenalapi.onrender.com/api/v1";
+
 
 
 export const fetchCars = createAsyncThunk(
