@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { getUserFromLocalStorage } from "../../utils/LocalStorage";
 
-export const BASE_URL = "https://cars-api.up.railway.app/api/v1";
+export const BASE_URL = "https://mhnoor-car-rental-api-e6f2b940d147.herokuapp.com/api/v1";
 
 export const fetchCars = createAsyncThunk(
 	"cars/fetchData",
